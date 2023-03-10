@@ -2,9 +2,6 @@
 <html lang="pt">
 
 <head>
-<title>Blog FoodPaper Portugal</title>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="stylesheet" type="text/css" href="styles/styleblog.css" />
    <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162094470-1"></script>
        <script>
@@ -24,21 +21,26 @@
 
        <link rel="icon" href="images/favicon_foodpaper.webp" type="image/x-icon">
 
-       <title>Food Paper Portugal - Papel, Embalagens e Packaging Alimentar</title>
-
-       <!-- Esta etiqueta informa ao navegador que a página está otimizada para móveis e que,
-       portanto, não se deve escalar seu conteúdo ao mostrá-lo na tela dos dispositivos. -->
-       <meta name="HandheldFriendly" content="true"/>
+       <title>Blog FoodPaper Portugal</title>
 
        <!-- Ajuda esta página a ser exibida nos resultados de busca-->
        <meta name="robots" content="index">
 
        <meta name="google-site-verification" content="5YjhbbaRhK9Bdf6IPKcfbsi4fm_sM-sHzP_MexCGmNE" />
 
+       <!-- Bootstrap5 -->
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+            rel="stylesheet" 
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
+            crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="styles/custom_bootstrap5.css">
+       <!-- Old Styles -->
        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap">
        <link rel="stylesheet" type="text/css" href="styles/styles.min.css">
        <link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css">
        <link rel="stylesheet" type="text/css" href="styles/styles.sd.fp.css"/>
+       <!-- <link rel="stylesheet" type="text/css" href="styles/custom_bootstrap5.css"> -->
+       
 
    </head>
 
@@ -298,15 +300,27 @@
       <div style="padding-top: 0px; padding-left: 0px;">
      </div>
     <!-- end featured-posts -->
+    
+
+
       <!-- begin post -->
-      <div class="post"><img src="images/noticias_viversemplastico.webp" alt=""/></a>
-        <h1>Mais Identidade, Mais Personalização</h1>
-        <p>Da restauração, produtores e grandes negócios, todos representam a confiança nos nossos produtos. Desde o nosso papel alimentar, embalagens alimentares, sacos de papel e copos de papel, concedemos valor, cuidado e soluções.</p>
-        <p></p>
-        <p>
+      <div class="card py-3 mw-50">
+        <div class="d-flex">
+            <img src="images/noticias_viversemplastico.webp" style="width: 18rem;height: 100%" alt="quemconfia_viversemplastico"/>
+            <div class="card-body mw-50"> 
+                <h1 class="card-title fs-4 fw-bold">Mais Identidade, Mais Personalização</h1>
+                <p class="card-text text-wrap fs-4">Da restauração, produtores e grandes negócios, todos representam a confiança nos nossos produtos. 
+                    Desde o nosso papel alimentar, embalagens alimentares, sacos de papel e copos de papel, concedemos valor, cuidado e soluções.
+                </p>
+            </div>
+        </div>
+    </div>
       <!-- end post -->
     </div>
-    <div>
+
+    <hr class="hr" >
+
+    <div class="">
         <img src="images/clients_formated1.png" alt="clientes_formated1">
         <img src="images/clients_formated2.png" alt="clientes_formated2">
         <img src="images/clients_formated3.png" alt="clientes_formated3">
@@ -469,7 +483,6 @@
             </div>
         </div>
         <script type="text/javascript" src="../js/jquery-3.5.1.min.js"></script>
-        <script type="text/javascript" src="../js/bootstrap.min.js"></script>
         <script type="text/javascript" src="../js/back-to-top.js"></script>
     </body>
 </html>
