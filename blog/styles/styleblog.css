@@ -228,23 +228,20 @@ img {
 
 /** BEGIN sidebar **/
 #sidebar {
-	float: left;
-	width: 340px;
+	
 	background-color: #F8F8F8;
-	text-align: left;
+	
 }
 	#sidebar h4 {
 		margin-left: 15px;
 	}
 	#sidebar ul {
-		list-style-type: none;
-		float: left; 
+		list-style-type: none; 
 		margin: 12px 0 15px 0;
 		padding-left: 22px;
 	}
 		#sidebar ul li {
 			padding: 8px 0;
-			float: left;
 			width: 150px;
 		}
 		/** links**/
@@ -255,7 +252,6 @@ img {
 				text-decoration: none;
 			}
 		#sidebar .category, #sidebar .archive, #sidebar .blogroll, #sidebar .meta, #sidebar .tag, #sidebar .video, #sidebar .flickrs, #sidebar .pop {
-			border-bottom: 1px solid #e0e0e0;
 			clear: both;
 			padding-top: 10px;
 		}
@@ -292,15 +288,11 @@ img {
 
 /** BEGIN footer**/
 #footer {
-	background-color: #3C403B;
 	clear: both;
 	color: #FFFFFF;
-	font-size: 1.9em;
-	padding-left: 28px;
 }
 	#footer p {
 		margin: auto auto;
-		padding: 20px 0;
 		text-align: left;
 		width: 952px;
 	}
