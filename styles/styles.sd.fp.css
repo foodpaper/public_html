@@ -55,7 +55,6 @@
 }
 
 .button2 {
-  float: right;
   display: inline-block;
   padding: 8px 10px;
   font-size: 15px;
@@ -84,4 +83,25 @@
   margin-left: auto;
   margin-right: auto;
   width: 45%;
+}
+
+#montra_title {
+  font-size: 4rem!important;
+  position: relative;
+}
+
+.montra_line_left {
+  position: absolute ;
+  bottom: 520px;
+  left: 0;
+}
+
+.montra_line_right {
+  position: absolute ;
+  bottom: 520px;
+  right: 0;
+}
+
+.chevron-down {
+
 }
