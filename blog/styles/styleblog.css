@@ -480,3 +480,21 @@ h4.title {
     
     align-items: right;
 }
+
+.faded_text {
+	position: relative;
+}
+
+.fade_over_text {
+	position: absolute;
+	height: 100px;
+	width: 100%;
+	bottom: 105px;
+	background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,0) 100%);
+}
+
+.title_over {
+	position: relative;
+	bottom:25px;
+}
